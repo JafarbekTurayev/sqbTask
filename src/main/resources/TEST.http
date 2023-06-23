@@ -1,0 +1,22 @@
+
+###
+GET http://localhost:7777/api/v1/getInfo
+Content-Type: application/json
+
+{
+  "username": "John",
+  "password": "12345"
+}
+
+###
+POST http://localhost:7777/api/v1/perform
+Content-Type: application/json
+
+{
+  "username": "John",
+  "password": "12345",
+  "amount": "200000"
+}
+
+### Bazaga ulanib tekshirish uchun URL
+### localhost:7777/h2-console/
